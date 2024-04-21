@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Healthcare</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="appointment">Appointment</string>
+    <string name="profile">Profile</string>
+    <string name="login_view">Login</string>
+    <string name="emailText">Enter your email</string>
+    <string name="passwordText">Enter your Password</string>
+    <string name="forgotpass">Forgot Password?</string>
+    <string name="buttonLogin">Login</string>
+    <string name="accountView">Don’t have an account?</string>
+    <string name="signupView">Sign Up</string>
+    <string name="your_symptoms">your_symptoms</string>
+    <string name="Rating">Rating</string>
+</resources>

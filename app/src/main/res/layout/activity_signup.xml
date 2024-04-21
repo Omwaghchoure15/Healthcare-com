@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/sign_up_tv"
+        android:layout_width="406dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="44dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/name_et"
+        android:layout_width="306dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="45dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/icons_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_tv" />
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="306dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/icons_email"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter your email"
+        android:inputType="text"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uname_et" />
+
+    <EditText
+        android:id="@+id/pass_et"
+        android:layout_width="308dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/icons_lock"
+        android:drawableEnd="@drawable/icon_eye_slash"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uemail_et" />
+
+
+    <CheckBox
+        android:id="@+id/cb_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginEnd="55dp"
+        android:fontFamily="sans-serif-thin"
+        android:text="I agree to the healthcare Terms of Service and Privacy Policy"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:theme="@style/checkbox"
+        android:typeface="normal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btsignup"
+        android:layout_width="308dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center"
+        android:background="@drawable/btn1"
+        android:backgroundTint="@color/main_purple"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview3" />
+
+
+</LinearLayout>

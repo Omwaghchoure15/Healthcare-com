@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/mu_home"
+        android:title="@string/home"
+        android:icon="@drawable/nav_home"/>
+
+    <item android:id="@+id/mu_search"
+        android:title="@string/search"
+        android:icon="@drawable/nav_search"/>
+
+    <item android:id="@+id/mu_appoint"
+        android:title="@string/appointment"
+        android:icon="@drawable/nav_calendar"/>
+
+    <item android:id="@+id/mu_profile"
+        android:title="@string/profile"
+        android:icon="@drawable/nav_profile"/>
+</menu>

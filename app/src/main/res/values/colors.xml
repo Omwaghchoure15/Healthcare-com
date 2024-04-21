@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="black">#FF000000</color>
+        <color name="white">#FFFFFF</color>
+        <color name="main_purple">#6941F1</color>
+        <color name="purple">#6C63FF</color>
+        <color name="blue">#1648CE</color>
+        <color name="gray">#6A6A6A</color>
+        <color name="red">#CF0202</color>
+        <color name="box_white">#D3F4F4F4</color>
+        <color name="light_blue">#F5FAFF</color>
+
+    <style name="checkbox" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/main_purple</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+    </style>
+</resources>
