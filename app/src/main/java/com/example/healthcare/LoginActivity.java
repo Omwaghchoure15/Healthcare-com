@@ -21,8 +21,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -30,7 +28,6 @@ public class LoginActivity extends AppCompatActivity {
     EditText emailText, passwordText;
     Button buttonLogin;
     TextView forgotPassword,signupView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,7 +101,5 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(new Intent(LoginActivity.this, SignupActivity.class));
             }
         });
-
     }
-
 }
